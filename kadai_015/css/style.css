@@ -1,0 +1,35 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  text-align: center;
+  font-family: "Arial", "Meiryo", sans-serif;
+} 
+
+h1 {
+  /* h1フォント */
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  /* h1装飾 */
+    font-size: 2rem; 
+    font-family: sans-serif;
+    letter-spacing: 1.2em;
+    text-shadow: 2px 2px 4px red; /* 影のオフセット、ぼかし、色を指定 */
+    border-bottom: 3px solid rgb(115, 115, 114);
+  }
+  
+.blue {
+  color: skyblue;
+}
+
+.pink {
+  color: rgb(255, 192, 203);
+}
+
+  /* 「侍太郎」「1990年1月1日」「O型」を太字 */
+#basic p {
+  font-weight: bold;
+}
